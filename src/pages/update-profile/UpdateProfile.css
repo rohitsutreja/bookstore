@@ -1,0 +1,19 @@
+.form{
+    margin: auto;
+    max-width: 1200px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.field{
+    width: 100%;
+}
+
+.contain{
+    margin: 10px;
+}

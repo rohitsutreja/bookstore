@@ -1,0 +1,105 @@
+.book-listing{
+    width: 80%;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.filters{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.filters> .sort{
+    width: 130px;
+}
+
+.product-list-wrapper{
+    margin-top: 20px;
+}
+
+.product-list-inner-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-list{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.product-list-inner{
+    width: 250px;
+    margin: 10px;
+}
+.img-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    width: 16rem;
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.content-wrapper{
+    padding: 20px 15px;
+}
+
+.content-wrapper > h3{
+    height: 27px;
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 2px;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.category{
+    color: #838383;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.description{
+    height: 40px;
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.discount-price{
+    color: #838383;
+    display: block;
+    font-weight: 400;
+}
+
+.cart-btn{
+    width: 100%;
+}
+
+.pagination-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.pagination-wrapper .css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+    background-color: rgb(37 99 235);
+    color: #fff;
+}

@@ -1,0 +1,16 @@
+.container3{
+    width: 80%;
+    margin: auto;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.search-bar > div{
+    margin-right: 10px;
+}
+

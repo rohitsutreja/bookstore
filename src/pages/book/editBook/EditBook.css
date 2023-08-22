@@ -1,0 +1,23 @@
+.form-container{
+    width: 80%;
+    margin: auto;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.form-col{
+    width: 50%;
+}
+
+.form-col > div{
+    width: 90%;
+    margin: 10px;
+}
+
+.uploaded-file-name > em > img{
+    width: 25%;
+}
